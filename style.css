@@ -25,6 +25,8 @@
 
 * {
 	font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -47,26 +49,63 @@ p a , .subhedding {
     text-decoration: none;
     
 }
+button{
+    background-color: transparent;
+    border: none;
+}
 .face1 , .face2{
 background-color: #17a2b8; margin: 0;
 height: 100%;
 }
 .face1{
     
-background-color: #17a2b8; margin: 0;
-position: fixed;
-top: 0;
-left: -2;
-z-index: 11111;
+    background-color: #17a2b8;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 4rem;
+    /* z-index: 111; */
 }
+.nav-item-f1{    margin: -2em;
+    margin-left: -4em;
+    
+}
+#cap{
+    
+    /* cursor: pointer; */
+    color: antiquewhite;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #000;
+}
+
 .face2{
     
-background-color: #17a2b8; margin: 0;
+background-color: #17a2b8; 
+margin: 0;
 position: fixed;
 top: 0;
-left: 8%;
+left: 4%;
+width: 12em;
 z-index: 11111;
 }
+
+.admin-uni{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#squreBox:hover{
+    cursor: pointer;
+    color: antiquewhite;
+    background-color: #000;
+}
+#squreBox:focus{
+    opacity: 1;
+    
+}
+
 .face3{
     margin-left: 33.5%;
     right: 0%;
@@ -78,7 +117,25 @@ z-index: 11111;
     text-decoration: none;
 }
 .admin , .university{
-    margin: 1rem 0 0 0 ;
+    margin: 1rem 1em 0 0;
+    color: #fff;
+     font-size: 1rem;
+     list-style: none;
+     font-style: italic;
+     text-decoration: none;
+}
+.admin:hover , .university:hover{
+    cursor: pointer;
+    color: antiquewhite;
+    font-weight: bolder;
+    background-color: #000;
+    border-radius: 50em;
+}
+.admin:focus , .university:focus{
+    /* background-color: #fff; */
+    color: #fff;
+    font-weight: bold;
+
 }
 .search-btn{
     color: black;
@@ -105,6 +162,18 @@ z-index: 11111;
 .box{
     display: flex;
     margin: 3rem;
+}
+.top-box{
+    margin-left: 2rem;
+    top:8px;
+}
+.tooltip-inner{
+    max-width: 200px;
+    padding: .25rem .5rem;
+    color: #fff;
+    text-align: center;
+    background-color: #17a2b8;
+    border-radius: .25rem;
 }
 .list{
     margin: 1rem;
@@ -137,6 +206,37 @@ z-index: 11111;
     width: 50rem;
 
 }
+
+.header{
+    display: none;
+}
+
+
+
+
+.metismenu.grid {
+    flex-wrap: wrap;
+    flex-direction: unset;
+    position: relative;
+    padding-right: 15px;
+}
+
+.metismenu.grid>li {
+    text-align: center;
+    position: static;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* 
 body {
 	margin: 0;  padding: 0;  margin-bottom: 15px;  margin-top: 8px;

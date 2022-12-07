@@ -1,0 +1,50 @@
+
+
+/* # Mobile
+only screen and (min-width: 480px)
+
+# Tablet
+only screen and (min-width: 768px) 
+
+# Desktop
+only screen and (min-width: 992px)
+
+# Huge
+only screen and (min-width: 1280px)  */
+
+
+@media (min-width: 10px) and (max-width: 480px) {
+    
+  }
+
+  @media (min-width: 481px) and (max-width:768px){
+    body {
+        background-color: rgb(2, 37, 49);
+      }
+      .face1{
+          display: none;
+      }
+      .face2{
+          width: 10rem;
+          left: 0;
+          z-index: 111;
+      }
+      .face3{
+          /* display: ; */
+          right: 0;
+          margin: 0 0 0 7rem;
+          width: 54rem;
+          height: min-content;
+  
+      }
+      .box{
+          background-color: rgb(244, 238, 238);
+          overflow: auto;
+          white-space: nowrap;
+        }
+      .top-box{
+          margin-left: 5.1rem;
+          
+      }
+
+  }
