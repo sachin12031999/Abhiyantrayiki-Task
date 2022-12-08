@@ -45,7 +45,7 @@ p a , .subhedding {
     /* font-size: .5rem; */
     color: #fff;
     list-style: none;
-    /* font-style: italic; */
+    font-style: italic;
     text-decoration: none;
     
 }
@@ -86,7 +86,7 @@ background-color: #17a2b8;
 margin: 0;
 position: fixed;
 top: 0;
-left: 4%;
+left: 4em;
 width: 12em;
 z-index: 11111;
 }
