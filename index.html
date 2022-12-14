@@ -37,6 +37,44 @@
 <body>
     <header class="header">
 
+
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+
         <div class="col-1 face1">
             <div class="row nav-item">
                 <button class=" active btn  bs-blue  btn-social blockquote " href="/"><i data-bs-toggle="tooltip"
@@ -141,8 +179,81 @@
                         </div>
                         <div class="top-box">
                             <button class="btn btn-social mr-2 " id="squreBox" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"><i
-                                    class="fa fa-th-large opacity-50 "></i></button>
+                              aria-expanded="true" aria-controls="collapseOne"  href="#" role="button" id="dropdownMenuLink" data-bs-toggle="menu-uni" aria-expanded="false"><i
+                                    class="fa fa-th-large opacity-50 " data-bs-toggle="dropdown" aria-expanded="false"></i></button> <i
+                                    class="icon-grid font-16" data-toggle="tooltip" data-placement="left" title="Grid & List Toggle"></i>
+
+ <!-- ===================================== Box atoms ======================================== -->
+                                    <!-- <div class="tab-content mt-3" style="
+                                    height: calc(100vh - 109px);
+                                    overflow-y: auto"> 
+                                        <div class="tab-pane fade show active" id="menu-uni" role="tabpanel">
+                                          <nav class="sidebar-nav">
+                                            <ul class="metismenu d-flex">
+                                              <li class="active"><a href="index.html"><i class="fa fa-dashboard"></i><span>Dashboard</span></a></li>
+                                              <li><a href="professors.html"><i class="fa fa-black-tie"></i><span>Professors</span></a></li>
+                                              <li><a href="staff.html"><i class="fa fa-user-circle-o"></i><span>Staff</span></a></li>
+                                              <li><a href="students.html"><i class="fa fa-users"></i><span>Students</span></a></li>
+                                              <li><a href="departments.html"><i class="fa fa-users"></i><span>Departments</span></a></li>
+                                              <li><a href="courses.html"><i class="fa fa-graduation-cap"></i><span>Courses</span></a></li>
+                                              <li><a href="library.html"><i class="fa fa-book"></i><span>Library</span></a></li>
+                                              <li><a href="holiday.html"><i class="fa fa-bullhorn"></i><span>Holiday</span></a></li>
+                                              <li class="g_heading">Extra</li>
+                                              <li><a href="events.html"><i class="fa fa-calendar"></i><span>Calender</span></a></li>
+                                              <li><a href="app-chat.html"><i class="fa fa-comments-o"></i><span>Chat App</span></a></li>
+                                              <li><a href="app-contact.html"><i class="fa fa-address-book"></i><span>Contact</span></a></li>
+                                              <li><a href="app-filemanager.html"><i class="fa fa-folder"></i><span>FileManager</span></a></li>
+                                              <li><a href="our-centres.html"><i class="fa fa-map"></i><span>OurCentres</span></a></li>
+                                              <li><a href="gallery.html"><i class="fa fa-camera-retro"></i><span>Gallery</span></a></li>
+                                            </ul>
+                                          </nav>
+                                        </div>
+                                        <div class="tab-pane fade" id="menu-admin" role="tabpanel">
+                                          <nav class="sidebar-nav">
+                                            <ul class="metismenu">
+                                              <li><a href="payments.html"><i class="fa fa-credit-card"></i><span>Payments</span></a></li>
+                                              <li><a href="noticeboard.html"><i class="fa fa-dashboard"></i><span>Noticeboard</span></a></li>
+                                              <li><a href="taskboard.html"><i class="fa fa-list-ul"></i><span>Taskboard</span></a></li>
+                                              <li><a href="hostel.html"><i class="fa fa-bed"></i><span>Hostel</span></a></li>
+                                              <li><a href="transport.html"><i class="fa fa-truck"></i><span>Transport</span></a></li>
+                                              <li><a href="attendance.html"><i class="fa fa-calendar-check-o"></i><span>Attendance</span></a></li>
+                                              <li><a href="leave.html"><i class="fa fa-flag"></i><span>Leave</span></a></li>
+                                              <li><a href="setting.html"><i class="fa fa-gear"></i><span>Settings</span></a></li>
+                                            </ul>
+                                          </nav>
+                                        </div>
+                                      </div> -->
+
+
+ <!-- ===================================== Box atoms end ======================================== -->
+
+                                    
+                                    <!-- <ul class="metismenu grid" aria-labelledby="dropbox">
+<div class="d-flex">
+                                      <li class="col-md-6 active"><a href=""><i class="fa fa-dashboard"></i><span>Dashboard</span></a></li>
+                                      <li class="col-md-6"><a href=""><i class="fa fa-black-tie"></i><span>Professors</span></a></li>
+</div><div class="d-flex">
+                                      <li class="col-md-6"><a href=""><i class="fa fa-user-circle-o"></i><span>Staff</span></a></li>
+                                      <li class="col-md-6"><a href=""><i class="fa fa-users"></i><span>Students</span></a></li>
+<div class="d-flex">
+                                      <li class="col-md-6"><a href=""><i class="fa fa-users"></i><span>Departments</span></a></li>
+                                      <li class="col-md-6"><a href=""><i class="fa fa-graduation-cap"></i><span>Courses</span></a></li>
+</div><div class="d-flex">
+                                      <li class="col-md-6"><a href=""><i class="fa fa-book"></i><span>Library</span></a></li>
+                                      <li class="col-md-6"><a href=""><i class="fa fa-bullhorn"></i><span>Holiday</span></a></li>
+</div>
+                                      <li class="g_heading col-md-6">Extra</li>
+</div><div class="d-flex">
+                                      <li class="col-md-6"><a href=""><i class="fa fa-calendar"></i><span>Calender</span></a></li>
+                                      <li class="col-md-6"><a href=""><i class="fa fa-comments-o"></i><span>Chat App</span></a></li>
+</div><div class="d-flex">
+                                      <li class="col-md-6"><a href=""><i class="fa fa-address-book"></i><span>Contact</span></a></li>
+                                      <li class="col-md-6"><a href=""><i class="fa fa-folder"></i><span>FileManager</span></a></li>
+</div><div class="d-flex">
+                                      <li class="col-md-6"><a href=""><i class="fa fa-map"></i><span>OurCentres</span></a></li>
+                                      <li class="col-md-6"><a href=""><i class="fa fa-camera-retro"></i><span>Gallery</span></a></li>
+</div>                                     
+                                      </ul> -->
                         </div>
 
                         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
@@ -150,36 +261,27 @@
 
 
                             <!-- <div class="accordion-body">
-                                <ul class="metismenu grid">
-                                    <li class="active"><a href="index.html"><i
-                                                class="fa fa-dashboard"></i><span>Dashboard</span></a></li>
-                                    <li><a href="professors.html"><i
-                                                class="fa fa-black-tie"></i><span>Professors</span></a></li>
-                                    <li><a href="staff.html"><i class="fa fa-user-circle-o"></i><span>Staff</span></a>
-                                    </li>
-                                    <li><a href="students.html"><i class="fa fa-users"></i><span>Students</span></a>
-                                    </li>
-                                    <li><a href="departments.html"><i
-                                                class="fa fa-users"></i><span>Departments</span></a></li>
-                                    <li><a href="courses.html"><i
-                                                class="fa fa-graduation-cap"></i><span>Courses</span></a></li>
-                                    <li><a href="library.html"><i class="fa fa-book"></i><span>Library</span></a></li>
-                                    <li><a href="holiday.html"><i class="fa fa-bullhorn"></i><span>Holiday</span></a>
-                                    </li>
-                                    <li class="g_heading">Extra</li>
-                                    <li><a href="events.html"><i class="fa fa-calendar"></i><span>Calender</span></a>
-                                    </li>
-                                    <li><a href="app-chat.html"><i class="fa fa-comments-o"></i><span>Chat
-                                                App</span></a></li>
-                                    <li><a href="app-contact.html"><i
-                                                class="fa fa-address-book"></i><span>Contact</span></a></li>
-                                    <li><a href="app-filemanager.html"><i
-                                                class="fa fa-folder"></i><span>FileManager</span></a></li>
-                                    <li><a href="our-centres.html"><i class="fa fa-map"></i><span>OurCentres</span></a>
-                                    </li>
-                                    <li><a href="gallery.html"><i
-                                                class="fa fa-camera-retro"></i><span>Gallery</span></a></li>
-                                </ul>
+                               <div class="tab-pane fade show active" id="menu-uni" role="tabpanel">
+<nav class="sidebar-nav">
+<ul class="metismenu grid">
+<li class="active"><a href="index.html"><i class="fa fa-dashboard"></i><span>Dashboard</span></a></li>
+<li><a href="professors.html"><i class="fa fa-black-tie"></i><span>Professors</span></a></li>
+<li><a href="staff.html"><i class="fa fa-user-circle-o"></i><span>Staff</span></a></li>
+<li><a href="students.html"><i class="fa fa-users"></i><span>Students</span></a></li>
+<li><a href="departments.html"><i class="fa fa-users"></i><span>Departments</span></a></li>
+<li><a href="courses.html"><i class="fa fa-graduation-cap"></i><span>Courses</span></a></li>
+<li><a href="library.html"><i class="fa fa-book"></i><span>Library</span></a></li>
+<li><a href="holiday.html"><i class="fa fa-bullhorn"></i><span>Holiday</span></a></li>
+<li class="g_heading">Extra</li>
+<li><a href="events.html"><i class="fa fa-calendar"></i><span>Calender</span></a></li>
+<li><a href="app-chat.html"><i class="fa fa-comments-o"></i><span>Chat App</span></a></li>
+<li><a href="app-contact.html"><i class="fa fa-address-book"></i><span>Contact</span></a></li>
+<li><a href="app-filemanager.html"><i class="fa fa-folder"></i><span>FileManager</span></a></li>
+<li><a href="our-centres.html"><i class="fa fa-map"></i><span>OurCentres</span></a></li>
+<li><a href="gallery.html"><i class="fa fa-camera-retro"></i><span>Gallery</span></a></li>
+</ul>
+</nav>
+</div>
             
                             </div> -->
                         </div>
@@ -189,52 +291,92 @@
                     <div class="col-1">
                         <div class="col-2">
 
-                            <li class="">
+                          
                                 <ul class="d-flex admin-uni">
                                     <li class="nav-item  ">
-                                        <button class="nav-link active university"type="button" data-bs-toggle="collapse"
+                                        <!-- <button class="nav-link active university"type="button" data-bs-toggle="collapse"
                                         data-bs-target="#university" aria-expanded="true"
-                                        aria-controls="collapseOne">University</button>
+                                        aria-controls="collapseOne">University</button> -->
+                                        <div class="dropdown border-0">
+                                        <a class="btn  university  " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                          University
+                                        </a>
+
+                                        <ul class="dropdown-menu accordion-collapse collapse show text-decoration-none list-unstyled admin border-0" aria-labelledby="dropdownMenuLink">   
+
+
+                                          <li class="d-flex" value="1" ><i class=" mt-1 text-white fas fa-tachometer-alt"></i><a class="m-2 mt-0" href="/">Dashboard</a></li>
+                                          <li class="d-flex" value="2" ><i class=" mt-1 text-white fab fa-black-tie"></i><a class="m-2 mt-0" href="/">Professors</a></li>
+                                          <li class="d-flex" value="3" ><i class=" mt-1 text-white fas fa-user-circle"></i><a class="m-2 mt-0" href="/">Staff</a></li>
+                                          <li class="d-flex" value="4" ><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0" href="/">Student</a></li>
+                                          <li class="d-flex" value="5" ><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0" href="/">Departments</a></li>
+                                          <li class="d-flex" value="6" ><i class=" mt-1 text-white fas fa-graduation-cap"></i><a class="m-2 mt-0" href="/">Course</a></li>
+                                          <li class="d-flex" value="7" ><i class=" mt-1 text-white fas fa-book"></i><a class="m-2 mt-0" href="/">library</a></li>
+                                          <li class="d-flex" value="8" ><i class=" mt-1 text-white fas fa-bullhorn"></i><a class="m-2 mt-0" href="/">Holiday</a></li>
+                                          <hr>
+                                          <span>Extra</span>
+                                          
+                                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-map"></i><span class="m-2 mt-0">OurCentres</span></a></li>
+                                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-camera-retro"></i><span class="m-2 mt-0">Gallery</span></a></li>
+                                      
+                                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-address-book"></i><span class="m-2 mt-0">Contact</span></a></li>
+                                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-folder"></i><span class="m-2 mt-0">FileManager</span></a></li>
+                                      
+                                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-calendar"></i><span class="m-2 mt-0">Calender</span></a></li>
+                                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa-brands fa-rocketchat"></i><span class="m-2 mt-0">Chat App</span></a></li>
+                                          </ul>
+
+                                      </div>
+
+
+
                                     </li>
                                     <li class="nav-item col">
-                                        <button class="nav-link admin"  type="button" data-bs-toggle="collapse"
-                                            data-bs-target="#admin" aria-expanded="true"
-                                            aria-controls="collapseOne">Admin</button>
-                                    </li>
+                                      
+                            <div class="dropdown">
+                              <a class="btn  admin dropdown-menu-end dropdown-menu-lg-start inner" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Admin
+                              </a >
+                            
+                              <ul class="dropdown-menu accordion-collapse collapse show text-decoration-none list-unstyled admin adminUl border-0" aria-labelledby="dropdownMenuLink">   
+                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-tachometer-alt"></i><a class="m-2 mt-0" href="/">Payment</a></li>
+                                <li class="d-flex " ><i class=" mt-1 text-white fab fa-black-tie"></i><a class="m-2 mt-0" href="/">Noticeboard</a></li>
+                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-user-circle"></i><a class="m-2 mt-0" href="/">Staff</a></li>
+                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0" href="/">Student</a></li>
+                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0" href="/">Departments</a></li>
+                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-graduation-cap"></i><a class="m-2 mt-0" href="/">Course</a></li>
+                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-book"></i><a class="m-2 mt-0" href="/">library</a></li>
+                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-bullhorn"></i><a class="m-2 mt-0" href="/">Holiday</a></li>
+                              </ul>
+                            </div>
+                                  
 <hr>
                                 </ul>
-                            </li>
+                            
+
+
+
+
+
+
+
+                            
                             <hr>
-                            <!-- <table>
-                                <thead>
-                                        
-                                    <tr>
-                                        <td class=" subhedding university text-capitalize">University</td>
-                                        <td class=" subhedding admin text-capitalize">Admin</td>
-                                    </tr>
-                                        </thead>
-                                        
-                                <tbody>
-                                    <tr>
-                                        <td class="subhedding" scope="row"> Dashboard </td>
-                                        <td class="subhedding" > 97.00</td>
-                                    </tr>
-                                </tbody>
-                            </table> -->
+                          
                             
                             <div id="university" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
-                            <p class="d-flex" ><i class=" mt-1 text-white fas fa-tachometer-alt"></i><a class="m-2 mt-0" href="/">Dashboard</a></p>
+                            <!-- <p class="d-flex" ><i class=" mt-1 text-white fas fa-tachometer-alt"></i><a class="m-2 mt-0" href="/">Dashboard</a></p>
                             <p class="d-flex" ><i class=" mt-1 text-white fab fa-black-tie"></i><a class="m-2 mt-0" href="/">Professors</a></p>
                             <p class="d-flex" ><i class=" mt-1 text-white fas fa-user-circle"></i><a class="m-2 mt-0" href="/">Staff</a></p>
                             <p class="d-flex" ><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0" href="/">Student</a></p>
                             <p class="d-flex" ><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0" href="/">Departments</a></p>
                             <p class="d-flex" ><i class=" mt-1 text-white fas fa-graduation-cap"></i><a class="m-2 mt-0" href="/">Course</a></p>
                             <p class="d-flex" ><i class=" mt-1 text-white fas fa-book"></i><a class="m-2 mt-0" href="/">library</a></p>
-                            <p class="d-flex" ><i class=" mt-1 text-white fas fa-bullhorn"></i><a class="m-2 mt-0" href="/">Holiday</a></p>
+                            <p class="d-flex" ><i class=" mt-1 text-white fas fa-bullhorn"></i><a class="m-2 mt-0" href="/">Holiday</a></p> -->
                             </div>
                         </div>
-                        <div class="col-2">
+                        <!-- <div class="col-2">
                             <div id="admin" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                              
@@ -250,7 +392,7 @@
                                     
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <div class="col-8 face3" style="background-color: #fff;">
@@ -260,7 +402,7 @@
                                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
                                     <form class="d-flex">
-                                        <input class="form-control search-input  me-2" type="search"
+                                        <input class="form-control search-input  px-0" type="search"
                                             placeholder="What you want to find                                            " aria-label="Search">
                                         <button class="btn btn-outline-success search-btn" type="submit">Search</button>
                                     </form>
@@ -490,9 +632,21 @@
                         </div>
                     </div>
                 </div>
+                
             </div>
         </div>
     </div>
+
+    <script>
+      function tr1(obj)
+    {
+    var inner = document.getElementsByTagName("hide1")[0];
+    if (inner.style.display == "none")
+        inner.style.display = "";
+    else
+        inner.style.display = "none";
+    }
+    </script>
 
 </body>
 

@@ -57,6 +57,12 @@ button{
 background-color: #17a2b8; margin: 0;
 height: 100%;
 }
+
+
+ul li a{
+    text-decoration:none;
+    color: #fff;
+}
 .face1{
     
     background-color: #17a2b8;
@@ -71,6 +77,9 @@ height: 100%;
     margin-left: -4em;
     
 }
+
+
+
 #cap{
     
     /* cursor: pointer; */
@@ -87,7 +96,7 @@ margin: 0;
 position: fixed;
 top: 0;
 left: 4em;
-width: 12em;
+width: 18em;
 z-index: 11111;
 }
 
@@ -107,8 +116,14 @@ z-index: 11111;
 }
 
 .face3{
-    margin-left: 33.5%;
-    right: 0%;
+    margin-left: 20vw;
+    max-width:100% ;
+    max-width: 89vw;
+    /* right: 0%; */
+}
+.face3>nav{
+    width: 65vw;
+ 
 }
 .subhedding{
     color: #fff;
@@ -116,8 +131,15 @@ z-index: 11111;
     /* font-style: italic; */
     text-decoration: none;
 }
+
+#navbarSupportedContent{
+    max-width: 90vw;
+}
+
 .admin , .university{
-    margin: 1rem 1em 0 0;
+    
+background-color: #17a2b8; 
+    margin:1rem 0 0 0;
     color: #fff;
      font-size: 1rem;
      list-style: none;
@@ -128,8 +150,8 @@ z-index: 11111;
     cursor: pointer;
     color: antiquewhite;
     font-weight: bolder;
-    background-color: #000;
-    border-radius: 50em;
+    /* background-color: #000; */
+    /* border-radius: 50em; */
 }
 .admin:focus , .university:focus{
     /* background-color: #fff; */
@@ -161,7 +183,8 @@ z-index: 11111;
 }
 .box{
     display: flex;
-    margin: 3rem;
+    width:65vw ;
+    /* margin: 3rem; */
 }
 .top-box{
     margin-left: 2rem;
@@ -225,15 +248,30 @@ z-index: 11111;
     text-align: center;
     position: static;
 }
+.admin{
+    /* // */
+}
+
+.adminUl{
+    left: 0;
+    margin-left: -95px;
+    box-shadow: none;
+}
 
 
 
 
 
-
-
-
-
+@media (min-width: 319px)  and (max-width:500px) {
+    .face1 , .face2{
+        display: none;
+    }
+    .face3{
+        left: 0;
+        right: auto;
+    }
+    
+}
 
 
 
