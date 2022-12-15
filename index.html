@@ -2,189 +2,185 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
 
-    <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <!-- =============================for chart=========================== -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
-    <!-- Font Awesome -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
 
-    <!-- customs css -->
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="resopncive.css">
+  <!-- customs css -->
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="resopncive.css">
 
-    <link rel="shortcut icon" href="https://logos-world.net/wp-content/uploads/2020/12/Ericsson-Emblem-700x394.png"
-        type="image/x-icon">
-    <meta name="description" content="Ericsson is the leading provider of 5G network equipment in the US">
-    <meta name="keywords" content="Ericsson">
-    <title>Ericsson - Ericsson is the leading provider of 5G network equipment in the US</title>
+  <link rel="shortcut icon" href="https://logos-world.net/wp-content/uploads/2020/12/Ericsson-Emblem-700x394.png"
+    type="image/x-icon">
+  <meta name="description" content="Ericsson is the leading provider of 5G network equipment in the US">
+  <meta name="keywords" content="Ericsson">
+  <title>Ericsson - Ericsson is the leading provider of 5G network equipment in the US</title>
+
 </head>
 
 <body>
-    <header class="header">
+  <header class="header">
 
 
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
-                </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-              </div>
-            </div>
-          </nav>
-
-        <div class="col-1 face1">
-            <div class="row nav-item">
-                <button class=" active btn  bs-blue  btn-social blockquote " href="/"><i data-bs-toggle="tooltip"
-                        data-bs-placement="bottom" data-bs-title="Education" class="fa fa-graduation-ca "></i></button>
-
-                <button style="margin-left: 1rem;"  class="btn  bs-blue  btn-social mr-2 blockquote " href="/"><i
-                        data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                        class="fa fa-graduation-cap  " id="cap"></i></button>
-
-                <a style="margin-left: 1rem;" class="btn  bs-blue  btn-social mr-2 blockquote " href="/"><i
-                        data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                        class="fa fa-bars "></i></a>
-
-                <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i
-                        data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                        class="fa fa-search "></i></a>
-
-                <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i
-                        data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                        class="fa fa-inbox"></i></a>
-
-                <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i
-                        data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                        class="fa fa-share-alt"></i></a>
-
-                <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i
-                        data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                        class="fa fa-leaf "></i></a>
-
-                <button style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i
-                        data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                        class="fa fa-cog"></i></button>
-            </div>
-            <div class="row" style="margin-top: 20rem ; margin-right: 1rem; margin-left: 1rem;">
-
-                <a style="margin-left: 1rem;" class="btn btn-social mr-2 blockquote  " href="/"><i
-                        data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                        class="fa fa-power-off "></i></a>
-
-                <a style="margin: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i data-bs-toggle="tooltip"
-                        data-bs-placement="bottom" data-bs-title="Education" class="fa fa-bars"></i></a>
-            </div>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
         </div>
-    </header>
-    <div class="container bd-gutter mt-3 my-4 bd-layout">
-        <div class="bd-sidebar">
-            <div class="row">
-                <div class="col-1 face1">
-                    <div class=" row nav-item-f1">
-                        <a class=" active btn  bs-blue  btn-social blockquote " href="/"><i data-bs-toggle="tooltip"
-                                data-bs-placement="bottom" data-bs-title="Education"
-                                class="fa fa-graduation-ca "></i></a>
+      </div>
+    </nav>
 
-                        <a style="margin-left: 1rem;" class="btn  bs-blue  btn-social mr-2 blockquote " href="/"><i
-                                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                                class="fa fa-graduation-cap  "></i></a>
+    <div class="col-1 face1">
+      <div class="row nav-item">
+        <button class=" active btn  bs-blue  btn-social blockquote " href="/"><i data-bs-toggle="tooltip"
+            data-bs-placement="bottom" data-bs-title="Education" class="fa fa-graduation-ca "></i></button>
 
-                        <a style="margin-left: 1rem;" class="btn  bs-blue  btn-social mr-2 blockquote " href="/"><i
-                                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                                class="fa fa-bars "></i></a>
+        <button style="margin-left: 1rem;" class="btn rounded p-3 bg-black active bs-blue  btn-social mr-2-0 blockquote  " href="/"><i class=" rounded p-3 bg-black"
+            data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education" class="fa fa-graduation-cap  "
+            id="cap"></i></button>
 
-                        <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i
-                                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                                class="fa fa-search "></i></a>
+        <a style="margin-left: 1rem;" class="btn  bs-blue  btn-social mr-2 blockquote " href="/"><i
+            data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education" class="fa fa-bars "></i></a>
 
-                        <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i
-                                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                                class="fa fa-inbox"></i></a>
+        <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i data-bs-toggle="tooltip"
+            data-bs-placement="bottom" data-bs-title="Education" class="fa fa-search "></i></a>
 
-                        <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i
-                                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                                class="fa fa-share-alt"></i></a>
+        <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i data-bs-toggle="tooltip"
+            data-bs-placement="bottom" data-bs-title="Education" class="fa fa-inbox"></i></a>
 
-                        <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i
-                                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                                class="fa fa-leaf "></i></a>
+        <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i data-bs-toggle="tooltip"
+            data-bs-placement="bottom" data-bs-title="Education" class="fa fa-share-alt"></i></a>
 
-                        <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i
-                                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
-                                class="fa fa-cog"></i></a>
+        <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i data-bs-toggle="tooltip"
+            data-bs-placement="bottom" data-bs-title="Education" class="fa fa-leaf "></i></a>
+
+        <button style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i data-bs-toggle="tooltip"
+            data-bs-placement="bottom" data-bs-title="Education" class="fa fa-cog"></i></button>
+      </div>
+      <div class="row" style="margin-top: 20rem ; margin-right: 1rem; margin-left: 1rem;">
+
+        <a style="margin-left: 1rem;" class="btn btn-social mr-2 blockquote  " href="/"><i data-bs-toggle="tooltip"
+            data-bs-placement="bottom" data-bs-title="Education" class="fa fa-power-off "></i></a>
+
+        <a style="margin: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i data-bs-toggle="tooltip"
+            data-bs-placement="bottom" data-bs-title="Education" class="fa fa-bars"></i></a>
+      </div>
+    </div>
+  </header>
+  <div class="container bd-gutter mt-3 my-4 bd-layout">
+    <div class="bd-sidebar">
+      <div class="row">
+        <div class="col-1 face1">
+          <div class=" row nav-item-f1">
+            <a class=" active btn  bs-blue  btn-social blockquote " href="/"><i data-bs-toggle="tooltip"
+                data-bs-placement="bottom" data-bs-title="Education" class="fa fa-graduation-ca "></i></a>
+
+            <a style="margin-left: 1rem;" class="btn  bs-blue  btn-social mr-2 blockquote " href="/"><i
+                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
+                class="fa fa-graduation-cap  "></i></a>
+
+            <a style="margin-left: 1rem;" class="btn  bs-blue  btn-social mr-2 blockquote " href="/"><i
+                data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
+                class="fa fa-bars "></i></a>
+
+            <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i data-bs-toggle="tooltip"
+                data-bs-placement="bottom" data-bs-title="Education" class="fa fa-search "></i></a>
+
+            <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i data-bs-toggle="tooltip"
+                data-bs-placement="bottom" data-bs-title="Education" class="fa fa-inbox"></i></a>
+
+            <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i data-bs-toggle="tooltip"
+                data-bs-placement="bottom" data-bs-title="Education" class="fa fa-share-alt"></i></a>
+
+            <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i data-bs-toggle="tooltip"
+                data-bs-placement="bottom" data-bs-title="Education" class="fa fa-leaf "></i></a>
+
+            <a style="margin-left: 1rem;" class="btn  btn-social mr-2 blockquote " href="/"><i data-bs-toggle="tooltip"
+                data-bs-placement="bottom" data-bs-title="Education" class="fa fa-cog"></i></a>
 
 
 
-                        <div class="row" style="margin-top: 15rem ; margin-right: 1rem; margin-left: 1rem;">
+            <div class="row" style="margin-top: 15rem ; margin-right: 1rem; margin-left: 1rem;">
 
-                            <a style="margin-left: 0;margin-top: -94px;" class="btn btn-social mr-2 blockquote  "
-                                href="/"><i data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    data-bs-title="Education" class="fa fa-power-off "></i></a>
+              <a style="margin-left: 0;margin-top: -94px;" class="btn btn-social mr-2 blockquote  " href="/"><i
+                  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
+                  class="fa fa-power-off "></i></a>
 
-                            <a style="margin-left: 0;margin-top: -38px;" class="btn  btn-social mr-2 blockquote "
-                                href="/"><i data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                    data-bs-title="Education" class="fa fa-bars"></i></a>
-                        </div>
-                    </div>
+              <a style="margin-left: 0;margin-top: -38px;" class="btn  btn-social mr-2 blockquote " href="/"><i
+                  data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Education"
+                  class="fa fa-bars"></i></a>
+            </div>
+          </div>
 
 
-                </div>
-                <div class="col-3 face2">
-                    <div class="col d-flex  justify-content">
-                        <div class="subhedding tooltip-inner ">
-                            Ericsson
-                        </div>
-                        <div class="top-box">
-                            <button class="btn btn-social mr-2 " id="squreBox" type="button" data-bs-toggle="collapse"
-                              aria-expanded="true" aria-controls="collapseOne"  href="#" role="button" id="dropdownMenuLink" data-bs-toggle="menu-uni" aria-expanded="false"><i
-                                    class="fa fa-th-large opacity-50 " data-bs-toggle="dropdown" aria-expanded="false"></i></button> <i
-                                    class="icon-grid font-16" data-toggle="tooltip" data-placement="left" title="Grid & List Toggle"></i>
+        </div>
+        <div class="col-3 face2">
+          <div class="col d-flex  justify-content">
+            <div class="subhedding tooltip-inner ">
+              Ericsson
+            </div>
+            <div class="top-box">
+              <button class="btn btn-social mr-2 " id="squreBox" type="button" data-bs-toggle="collapse"
+                aria-expanded="true" aria-controls="collapseOne" href="#" role="button" id="dropdownMenuLink"
+                data-bs-toggle="menu-uni" aria-expanded="false"><i class="fa fa-th-large opacity-50 "
+                  data-bs-toggle="dropdown" aria-expanded="false"></i></button> <i class="icon-grid font-16"
+                data-toggle="tooltip" data-placement="left" title="Grid & List Toggle"></i>
 
- <!-- ===================================== Box atoms ======================================== -->
-                                    <!-- <div class="tab-content mt-3" style="
+              <!-- ===================================== Box atoms ======================================== -->
+              <!-- <div class="tab-content mt-3" style="
                                     height: calc(100vh - 109px);
                                     overflow-y: auto"> 
                                         <div class="tab-pane fade show active" id="menu-uni" role="tabpanel">
@@ -225,10 +221,10 @@
                                       </div> -->
 
 
- <!-- ===================================== Box atoms end ======================================== -->
+              <!-- ===================================== Box atoms end ======================================== -->
 
-                                    
-                                    <!-- <ul class="metismenu grid" aria-labelledby="dropbox">
+
+              <!-- <ul class="metismenu grid" aria-labelledby="dropbox">
 <div class="d-flex">
                                       <li class="col-md-6 active"><a href=""><i class="fa fa-dashboard"></i><span>Dashboard</span></a></li>
                                       <li class="col-md-6"><a href=""><i class="fa fa-black-tie"></i><span>Professors</span></a></li>
@@ -254,13 +250,13 @@
                                       <li class="col-md-6"><a href=""><i class="fa fa-camera-retro"></i><span>Gallery</span></a></li>
 </div>                                     
                                       </ul> -->
-                        </div>
+            </div>
 
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                            data-bs-parent="#accordionExample">
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
 
 
-                            <!-- <div class="accordion-body">
+              <!-- <div class="accordion-body">
                                <div class="tab-pane fade show active" id="menu-uni" role="tabpanel">
 <nav class="sidebar-nav">
 <ul class="metismenu grid">
@@ -284,89 +280,117 @@
 </div>
             
                             </div> -->
-                        </div>
+            </div>
 
 
-                    </div>
-                    <div class="col-1">
-                        <div class="col-2">
+          </div>
+          <div class="col-1">
+            <div class="col-2">
 
-                          
-                                <ul class="d-flex admin-uni">
-                                    <li class="nav-item  ">
-                                        <!-- <button class="nav-link active university"type="button" data-bs-toggle="collapse"
+
+              <ul class="d-flex admin-uni">
+                <li class="nav-item  ">
+                  <!-- <button class="nav-link active university"type="button" data-bs-toggle="collapse"
                                         data-bs-target="#university" aria-expanded="true"
                                         aria-controls="collapseOne">University</button> -->
-                                        <div class="dropdown border-0">
-                                        <a class="btn  university  " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                          University
-                                        </a>
+                  <div class="dropdown border-0">
+                    <a class="btn  university  " href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      University
+                    </a>
 
-                                        <ul class="dropdown-menu accordion-collapse collapse show text-decoration-none list-unstyled admin border-0" aria-labelledby="dropdownMenuLink">   
-
-
-                                          <li class="d-flex" value="1" ><i class=" mt-1 text-white fas fa-tachometer-alt"></i><a class="m-2 mt-0" href="/">Dashboard</a></li>
-                                          <li class="d-flex" value="2" ><i class=" mt-1 text-white fab fa-black-tie"></i><a class="m-2 mt-0" href="/">Professors</a></li>
-                                          <li class="d-flex" value="3" ><i class=" mt-1 text-white fas fa-user-circle"></i><a class="m-2 mt-0" href="/">Staff</a></li>
-                                          <li class="d-flex" value="4" ><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0" href="/">Student</a></li>
-                                          <li class="d-flex" value="5" ><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0" href="/">Departments</a></li>
-                                          <li class="d-flex" value="6" ><i class=" mt-1 text-white fas fa-graduation-cap"></i><a class="m-2 mt-0" href="/">Course</a></li>
-                                          <li class="d-flex" value="7" ><i class=" mt-1 text-white fas fa-book"></i><a class="m-2 mt-0" href="/">library</a></li>
-                                          <li class="d-flex" value="8" ><i class=" mt-1 text-white fas fa-bullhorn"></i><a class="m-2 mt-0" href="/">Holiday</a></li>
-                                          <hr>
-                                          <span>Extra</span>
-                                          
-                                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-map"></i><span class="m-2 mt-0">OurCentres</span></a></li>
-                                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-camera-retro"></i><span class="m-2 mt-0">Gallery</span></a></li>
-                                      
-                                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-address-book"></i><span class="m-2 mt-0">Contact</span></a></li>
-                                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-folder"></i><span class="m-2 mt-0">FileManager</span></a></li>
-                                      
-                                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-calendar"></i><span class="m-2 mt-0">Calender</span></a></li>
-                                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa-brands fa-rocketchat"></i><span class="m-2 mt-0">Chat App</span></a></li>
-                                          </ul>
-
-                                      </div>
+                    <ul
+                      class="dropdown-menu accordion-collapse collapse show text-decoration-none list-unstyled admin border-0"
+                      aria-labelledby="dropdownMenuLink">
 
 
+                      <li class="d-flex" value="1"><i class=" mt-1 text-white fas fa-tachometer-alt"></i><a
+                          class="m-2 mt-0" href="/">Dashboard</a></li>
+                      <li class="d-flex" value="2"><i class=" mt-1 text-white fab fa-black-tie"></i><a class="m-2 mt-0"
+                          href="/">Professors</a></li>
+                      <li class="d-flex" value="3"><i class=" mt-1 text-white fas fa-user-circle"></i><a
+                          class="m-2 mt-0" href="/">Staff</a></li>
+                      <li class="d-flex" value="4"><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0"
+                          href="/">Student</a></li>
+                      <li class="d-flex" value="5"><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0"
+                          href="/">Departments</a></li>
+                      <li class="d-flex" value="6"><i class=" mt-1 text-white fas fa-graduation-cap"></i><a
+                          class="m-2 mt-0" href="/">Course</a></li>
+                      <li class="d-flex" value="7"><i class=" mt-1 text-white fas fa-book"></i><a class="m-2 mt-0"
+                          href="/">library</a></li>
+                      <li class="d-flex" value="8"><i class=" mt-1 text-white fas fa-bullhorn"></i><a class="m-2 mt-0"
+                          href="/">Holiday</a></li>
+                      <hr>
+                      <span>Extra</span>
 
-                                    </li>
-                                    <li class="nav-item col">
-                                      
-                            <div class="dropdown">
-                              <a class="btn  admin dropdown-menu-end dropdown-menu-lg-start inner" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                Admin
-                              </a >
-                            
-                              <ul class="dropdown-menu accordion-collapse collapse show text-decoration-none list-unstyled admin adminUl border-0" aria-labelledby="dropdownMenuLink">   
-                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-tachometer-alt"></i><a class="m-2 mt-0" href="/">Payment</a></li>
-                                <li class="d-flex " ><i class=" mt-1 text-white fab fa-black-tie"></i><a class="m-2 mt-0" href="/">Noticeboard</a></li>
-                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-user-circle"></i><a class="m-2 mt-0" href="/">Staff</a></li>
-                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0" href="/">Student</a></li>
-                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0" href="/">Departments</a></li>
-                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-graduation-cap"></i><a class="m-2 mt-0" href="/">Course</a></li>
-                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-book"></i><a class="m-2 mt-0" href="/">library</a></li>
-                                <li class="d-flex " ><i class=" mt-1 text-white fas fa-bullhorn"></i><a class="m-2 mt-0" href="/">Holiday</a></li>
-                              </ul>
-                            </div>
-                                  
-<hr>
-                                </ul>
-                            
+                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-map"></i><span
+                            class="m-2 mt-0">OurCentres</span></a></li>
+                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-camera-retro"></i><span
+                            class="m-2 mt-0">Gallery</span></a></li>
+
+                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-address-book"></i><span
+                            class="m-2 mt-0">Contact</span></a></li>
+                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-folder"></i><span
+                            class="m-2 mt-0">FileManager</span></a></li>
+
+                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa fa-calendar"></i><span
+                            class="m-2 mt-0">Calender</span></a></li>
+                      <li class=" d-flex"><a href=""><i class="  mt-1 text-white fa-brands fa-rocketchat"></i><span
+                            class="m-2 mt-0">Chat App</span></a></li>
+                    </ul>
+
+                  </div>
 
 
 
+                </li>
+                <li class="nav-item col">
+
+                  <div class="dropdown">
+                    <a class="btn  admin dropdown-menu-end dropdown-menu-lg-start inner" href="#" role="button"
+                      id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                      Admin
+                    </a>
+
+                    <ul
+                      class="dropdown-menu accordion-collapse collapse show text-decoration-none list-unstyled admin adminUl border-0"
+                      aria-labelledby="dropdownMenuLink">
+                      <li class="d-flex "><i class=" mt-1 text-white fas fa-tachometer-alt"></i><a class="m-2 mt-0"
+                          href="/">Payment</a></li>
+                      <li class="d-flex "><i class=" mt-1 text-white fab fa-black-tie"></i><a class="m-2 mt-0"
+                          href="/">Noticeboard</a></li>
+                      <li class="d-flex "><i class=" mt-1 text-white fas fa-user-circle"></i><a class="m-2 mt-0"
+                          href="/">Staff</a></li>
+                      <li class="d-flex "><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0"
+                          href="/">Student</a></li>
+                      <li class="d-flex "><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0"
+                          href="/">Departments</a></li>
+                      <li class="d-flex "><i class=" mt-1 text-white fas fa-graduation-cap"></i><a class="m-2 mt-0"
+                          href="/">Course</a></li>
+                      <li class="d-flex "><i class=" mt-1 text-white fas fa-book"></i><a class="m-2 mt-0"
+                          href="/">library</a></li>
+                      <li class="d-flex "><i class=" mt-1 text-white fas fa-bullhorn"></i><a class="m-2 mt-0"
+                          href="/">Holiday</a></li>
+                    </ul>
+                  </div>
+
+                  <hr>
+              </ul>
 
 
 
 
-                            
-                            <hr>
-                          
-                            
-                            <div id="university" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                                data-bs-parent="#accordionExample">
-                            <!-- <p class="d-flex" ><i class=" mt-1 text-white fas fa-tachometer-alt"></i><a class="m-2 mt-0" href="/">Dashboard</a></p>
+
+
+
+
+
+              <hr>
+
+
+              <div id="university" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <!-- <p class="d-flex" ><i class=" mt-1 text-white fas fa-tachometer-alt"></i><a class="m-2 mt-0" href="/">Dashboard</a></p>
                             <p class="d-flex" ><i class=" mt-1 text-white fab fa-black-tie"></i><a class="m-2 mt-0" href="/">Professors</a></p>
                             <p class="d-flex" ><i class=" mt-1 text-white fas fa-user-circle"></i><a class="m-2 mt-0" href="/">Staff</a></p>
                             <p class="d-flex" ><i class=" mt-1 text-white fas fa-users"></i><a class="m-2 mt-0" href="/">Student</a></p>
@@ -374,9 +398,9 @@
                             <p class="d-flex" ><i class=" mt-1 text-white fas fa-graduation-cap"></i><a class="m-2 mt-0" href="/">Course</a></p>
                             <p class="d-flex" ><i class=" mt-1 text-white fas fa-book"></i><a class="m-2 mt-0" href="/">library</a></p>
                             <p class="d-flex" ><i class=" mt-1 text-white fas fa-bullhorn"></i><a class="m-2 mt-0" href="/">Holiday</a></p> -->
-                            </div>
-                        </div>
-                        <!-- <div class="col-2">
+              </div>
+            </div>
+            <!-- <div class="col-2">
                             <div id="admin" class="accordion-collapse collapse show" aria-labelledby="headingOne"
                                 data-bs-parent="#accordionExample">
                              
@@ -393,259 +417,296 @@
                                 </ul>
                             </div>
                         </div> -->
-                    </div>
-                </div>
-                <div class="col-8 face3" style="background-color: #fff;">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <div class="container-fluid">
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                                    <form class="d-flex">
-                                        <input class="form-control search-input  px-0" type="search"
-                                            placeholder="What you want to find                                            " aria-label="Search">
-                                        <button class="btn btn-outline-success search-btn" type="submit">Search</button>
-                                    </form>
-
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false">
-                                            Pages
-                                        </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <li><a class="dropdown-item" href="#">Empty Page</a></li>
-                                            <li><a class="dropdown-item" href="#">Profile</a></li>
-                                            <li><a class="dropdown-item" href="#">Search Results</a></li>
-                                            <li><a class="dropdown-item" href="#">Empty Page</a></li>
-                                            <li><a class="dropdown-item" href="#">Timeline</a></li>
-                                            <li><a class="dropdown-item" href="#">Invoices</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        Auth
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Login</a></li>
-                                        <li><a class="dropdown-item" href="#">Register</a></li>
-                                        <li><a class="dropdown-item" href="#">Forgate Password</a></li>
-                                        <li><a class="dropdown-item" href="#">404 Error</a></li>
-                                        <li><a class="dropdown-item" href="#">500 Error</a></li>
-                                    </ul>
-                                    <div class="notification d-flex">
-                                        <div class="dropdown d-flex">
-
-                                            <a class="nav-link icon d-none d-flex btn btn-default btn-icon ml-1"
-                                                data-toggle="dropdown" aria-expanded="false"><i
-                                                    class="fa fa-language"></i>
-
-                                            </a>
-                                        </div>
-
-
-                                        <div class="nav-icon">
-                                            <i class="fa fa-language" aria-hidden="true"></i>
-                                        </div>
-                                        <div class="nav-icon">
-                                            <i class="fa fa-bell" aria-hidden="true"><span
-                                                    class="badge bg-primary rounded-pill">14</span></i>
-                                        </div>
-
-                                        <div class="nav-icon">
-                                            <i class="fa fa-envelope" aria-hidden="true"><span
-                                                    class="badge bg-primary rounded-pill">14</span></i>
-                                        </div>
-
-                                        <div class="nav-icon">
-                                            <i><img class="topperimg"
-                                                    src="https://tse1.mm.bing.net/th?id=OIP.arajm6MOZLUHuSHYtvMWbQHaHa&pid=Api&P=0"
-                                                    alt=""><a class="border user" href="#">Sachin</a></i>
-                                        </div>
-                                    </div>
-                                </ul>
-
-                            </div>
-                        </div>
-                    </nav>
-                    <hr>
-
-                    <div class="dashboard">
-                        <span class="d-flex"><a href="#">ERICSSON </a><a href="#"> /UNIVERSITY</a>
-                            <p> /DASHBOARD</p>
-                        </span>
-
-                    </div>
-
-                    <div class="box d-flex ">
-                        <div class="shadow-lg border list p-3 mb-5 bg-body rounded"><i
-                                class=" icon fa-2x fa fa-graduation-cap  " aria-hidden="true"></i></div>
-                        <div class="shadow-lg border list p-3 mb-5 bg-body rounded"><i
-                                class=" icon fa-2x fa fa-address-book" aria-hidden="true"></i></div>
-                        <div class="shadow-lg border list p-3 mb-5 bg-body rounded"><i class=" icon fa-2x fa fa-user"
-                                aria-hidden="true"></i></div>
-                        <div class="shadow-lg border list p-3 mb-5 bg-body rounded"><i
-                                class=" icon fa-2x fa fa-user-circle" aria-hidden="true"></i></i></div>
-                        <div class="shadow-lg border list p-3 mb-5 bg-body rounded"><i class=" icon fa-2x fa fa-book"
-                                aria-hidden="true"></i></div>
-                        <div class="shadow-lg border list p-3 mb-5 bg-body rounded"><i
-                                class=" icon fa-2x fa fa-bullhorn" aria-hidden="true"></i></div>
-
-
-                    </div>
-                    <hr>
-                    <div>
-                        <div class="shadow p-3 mb-5 bg-body rounded">Graph Part</div>
-                    </div>
-
-                    <div class="box">
-
-                        <div class="shadow-lg border subbox p-3 mb-5 bg-body rounded">
-                            <h3>Exem Topper</h3>
-                            <table id="example" class="table table-striped primery table-bordered" style="width:100%">
-                                <thead>
-
-                                    <tr>
-                                        <td class="text-capitalize" scope="#">number</td>
-                                        <td class="text-capitalize">Name</td>
-                                        <td class="text-capitalize">marks</td>
-                                        <td class="text-capitalize">% age</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td scope="row">01</td>
-                                        <td><img class="topperimg"
-                                                src="https://visafoto.com/img/passport-photo-original7.jpg" alt="">
-                                            Sachin</td>
-                                        <td>197</td>
-                                        <td class="text-success">97.00</td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td scope="row">02</td>
-                                        <td><img class="topperimg"
-                                                src="https://tse1.mm.bing.net/th?id=OIP.arajm6MOZLUHuSHYtvMWbQHaHa&pid=Api&P=0"
-                                                alt=""> RamLal</td>
-                                        <td>198</td>
-                                        <td class="text-success">98.00</td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td scope="4">03</td>
-                                        <td><img class="topperimg"
-                                                src="https://tse3.mm.bing.net/th?id=OIP.jWF6gKmTkTs4w_thbK3BiAHaKX&pid=Api&P=0"
-                                                alt=""> Prakash</td>
-                                        <td>199</td>
-                                        <td class="text-success">99.00</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                        <div class="shadow-lg border subbox p-3 mb-5 bg-body rounded">
-
-                            <div class="col-xs-12 text-center">
-                                <h4 class="text-capitalize">Performance</h4>
-                            </div>
-
-                            <div id="donut-chart"></div>
-
-                            <script>
-                                var chart = bb.generate({
-                                    data: {
-                                        columns: [
-                                            ["Blue", 2],
-                                            ["orange", 4],
-                                            ["green", 3],
-                                        ],
-                                        type: "donut",
-                                        onclick: function (d, i) {
-                                            console.log("onclick", d, i);
-                                        },
-                                        onover: function (d, i) {
-                                            console.log("onover", d, i);
-                                        },
-                                        onout: function (d, i) {
-                                            console.log("onout", d, i);
-                                        },
-                                    },
-                                    donut: {
-                                        title: "70",
-                                    },
-                                    bindto: "#donut-chart",
-                                });
-                            </script>
-                        </div>
-                    </div>
-
-                    <div class="box">
-
-                        <div class="shadow-lg border studentlist p-3 mb-5 bg-body rounded">
-                            <h3>Student List</h3>
-                            <table id="example" class="table table-striped primery table-bordered" style="width:100%">
-                                <thead>
-
-                                    <tr>
-                                        <td scope="#">number</td>
-                                        <td class="text-capitalize">Name</td>
-                                        <td class="text-capitalize">Date of Admit</td>
-                                        <td class="text-capitalize">Fees</td>
-                                        <td class="text-capitalize">Branch</td>
-                                        <td class="text-capitalize">Edit</td>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td scope="row">1</td>
-                                        <td>Sachin</td>
-                                        <td>01/11/2022</td>
-                                        <td class="text-success">paid</td>
-                                        <td>Science </td>
-                                        <td><i class=" text-primary fa fa-trash" aria-hidden="true"></i></td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td scope="row">2</td>
-                                        <td>RamLal</td>
-                                        <td>01/11/2022</td>
-                                        <td class="text-danger">unpaid</td>
-                                        <td>Science </td>
-                                        <td><i class=" text-primary fa fa-trash" aria-hidden="true"></i></td>
-                                    </tr>
-                                </tbody>
-                                <tbody>
-                                    <tr>
-                                        <td scope="4">3</td>
-                                        <td>Prakash</td>
-                                        <td>01/11/2022</td>
-                                        <td class="text-success">paid</td>
-                                        <td>Science </td>
-                                        <td><i class=" text-primary fa fa-trash" aria-hidden="true"></i></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-
-                        </div>
-                    </div>
-                </div>
-                
-            </div>
+          </div>
         </div>
-    </div>
+        <div class="col-8 face3" style="background-color: #fff;">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
+                  <form class="d-flex" style="width: auto;height: 49px;">
+                    <input class="form-control search-input  px-0" type="search"
+                      placeholder="What you want to find                                            "
+                      aria-label="Search">
+                    <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+                  </form>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Empty Page</a></li>
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                      <li><a class="dropdown-item" href="#">Search Results</a></li>
+                      <li><a class="dropdown-item" href="#">Empty Page</a></li>
+                      <li><a class="dropdown-item" href="#">Timeline</a></li>
+                      <li><a class="dropdown-item" href="#">Invoices</a></li>
+                    </ul>
+                  </li>
+
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    Auth
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Login</a></li>
+                    <li><a class="dropdown-item" href="#">Register</a></li>
+                    <li><a class="dropdown-item" href="#">Forgate Password</a></li>
+                    <li><a class="dropdown-item" href="#">404 Error</a></li>
+                    <li><a class="dropdown-item" href="#">500 Error</a></li>
+                  </ul>
+                  <div class="notification d-flex">
+                    <div class="dropdown d-flex">
+
+                      <a class="nav-link icon d-none d-flex btn btn-default btn-icon ml-1" data-toggle="dropdown"
+                        aria-expanded="false"><i class="fa fa-language"></i>
+
+                      </a>
+                    </div>
+
+
+                    <div class="nav-icon">
+                      <i class="fa fa-language" aria-hidden="true"></i>
+                    </div>
+                    <div class="nav-icon">
+                      <i class="fa fa-bell" aria-hidden="true"><span class="badge bg-primary rounded-pill">14</span></i>
+                    </div>
+
+                    <div class="nav-icon">
+                      <i class="fa fa-envelope" aria-hidden="true"><span
+                          class="badge bg-primary rounded-pill">14</span></i>
+                    </div>
+
+                    <div class="nav-icon">
+                      <i><img class="topperimg"
+                          src="https://tse1.mm.bing.net/th?id=OIP.arajm6MOZLUHuSHYtvMWbQHaHa&pid=Api&P=0" alt=""><a
+                          class="border user" href="#">Sachin</a></i>
+                    </div>
+                  </div>
+                </ul>
+
+              </div>
+            </div>
+          </nav>
+          <hr>
+
+          <div class="dashboard">
+            <span class="d-flex"><a href="#">ERICSSON </a><a href="#"> /UNIVERSITY</a>
+              <p> /DASHBOARD</p>
+            </span>
+
+          </div>
+
+          <div class="box d-flex ">
+            <div class="shadow-lg border list p-3 mb-5 bg-body rounded"><i class=" icon fa-2x fa fa-graduation-cap  "
+                aria-hidden="true"></i></div>
+            <div class="shadow-lg border list p-3 mb-5 bg-body rounded"><i class=" icon fa-2x fa fa-address-book"
+                aria-hidden="true"></i></div>
+            <div class="shadow-lg border list p-3 mb-5 bg-body rounded"><i class=" icon fa-2x fa fa-user"
+                aria-hidden="true"></i></div>
+            <div class="shadow-lg border list p-3 mb-5 bg-body rounded"><i class=" icon fa-2x fa fa-user-circle"
+                aria-hidden="true"></i></i></div>
+            <div class="shadow-lg border list p-3 mb-5 bg-body rounded"><i class=" icon fa-2x fa fa-book"
+                aria-hidden="true"></i></div>
+            <div class="shadow-lg border list p-3 mb-5 bg-body rounded"><i class=" icon fa-2x fa fa-bullhorn"
+                aria-hidden="true"></i></div>
+
+
+          </div>
+          <hr>
+          <div>
+            <div class="shadow p-3 mb-5 bg-body rounded">Graph Part</div>
+
+          </div>
+
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-6">
+                <div id="pieChart" style="height: 360px; width: 100%;">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div id="columnChart" style="height: 360px; width: 100%;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <script src="./universityreport.js"></script>
+
+          <div class="box">
+
+            <div class="shadow-lg border subbox p-3 mb-5 bg-body rounded">
+              <h3>Exem Topper</h3>
+              <table id="example" class="table table-striped primery table-bordered" style="width:100%">
+                <thead>
+
+                  <tr>
+                    <td class="text-capitalize" scope="#">number</td>
+                    <td class="text-capitalize">Name</td>
+                    <td class="text-capitalize">marks</td>
+                    <td class="text-capitalize">% age</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td scope="row">01</td>
+                    <td><img class="topperimg" src="https://visafoto.com/img/passport-photo-original7.jpg" alt="">
+                      Sachin</td>
+                    <td>197</td>
+                    <td class="text-success">97.00</td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td scope="row">02</td>
+                    <td><img class="topperimg"
+                        src="https://tse1.mm.bing.net/th?id=OIP.arajm6MOZLUHuSHYtvMWbQHaHa&pid=Api&P=0" alt=""> RamLal
+                    </td>
+                    <td>198</td>
+                    <td class="text-success">98.00</td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td scope="4">03</td>
+                    <td><img class="topperimg"
+                        src="https://tse3.mm.bing.net/th?id=OIP.jWF6gKmTkTs4w_thbK3BiAHaKX&pid=Api&P=0" alt=""> Prakash
+                    </td>
+                    <td>199</td>
+                    <td class="text-success">99.00</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="shadow-lg border subbox p-3 mb-5 bg-body rounded">
+
+              <div class="col-xs-12 text-center">
+                <h4 class="text-capitalize">Performance</h4>
+                <canvas id="myChart" style="width:100%;max-width:600px"></canva </div>
+
+                  <div id="donut-chart"></div>
+
+                  <script>
+                    var chart = bb.generate({
+                      data: {
+                        columns: [
+                          ["Blue", 2],
+                          ["orange", 4],
+                          ["green", 3],
+                        ],
+                        type: "donut",
+                        onclick: function (d, i) {
+                          console.log("onclick", d, i);
+                        },
+                        onover: function (d, i) {
+                          console.log("onover", d, i);
+                        },
+                        onout: function (d, i) {
+                          console.log("onout", d, i);
+                        },
+                      },
+                      donut: {
+                        title: "70",
+                      },
+                      bindto: "#donut-chart",
+                    });
+                  </script>
+              </div>
+            </div>
+
+            <div class="box">
+
+              <div class="shadow-lg border studentlist p-3 mb-5 bg-body rounded">
+                <h3>Student List</h3>
+                <table id="example" class="table table-striped primery table-bordered" style="width:100%">
+                  <thead>
+
+                    <tr>
+                      <td scope="#">number</td>
+                      <td class="text-capitalize">Name</td>
+                      <td class="text-capitalize">Date of Admit</td>
+                      <td class="text-capitalize">Fees</td>
+                      <td class="text-capitalize">Branch</td>
+                      <td class="text-capitalize">Edit</td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td scope="row">1</td>
+                      <td>Sachin</td>
+                      <td>01/11/2022</td>
+                      <td class="text-success">paid</td>
+                      <td>Science </td>
+                      <td><i class=" text-primary fa fa-trash" aria-hidden="true"></i></td>
+                    </tr>
+                  </tbody>
+                  <tbody>
+                    <tr>
+                      <td scope="row">2</td>
+                      <td>RamLal</td>
+                      <td>01/11/2022</td>
+                      <td class="text-danger">unpaid</td>
+                      <td>Science </td>
+                      <td><i class=" text-primary fa fa-trash" aria-hidden="true"></i></td>
+                    </tr>
+                  </tbody>
+                  <tbody>
+                    <tr>
+                      <td scope="4">3</td>
+                      <td>Prakash</td>
+                      <td>01/11/2022</td>
+                      <td class="text-success">paid</td>
+                      <td>Science </td>
+                      <td><i class=" text-primary fa fa-trash" aria-hidden="true"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script>var xValues = ["Italy", "France", "Spain", "USA", "Argentina"];
+      var yValues = [55, 49, 44, 24, 15];
+      var barColors = [
+        "#b91d47",
+        "#00aba9",
+        "#2b5797",
+        "#e8c3b9",
+        "#1e7145"
+      ];
+
+      new Chart("myChart", {
+        type: "pie",
+        data: {
+          labels: xValues,
+          datasets: [{
+            backgroundColor: barColors,
+            data: yValues
+          }]
+        },
+        options: {
+          title: {
+            display: true,
+            text: "World Wide Wine Production 2018"
+          }
+        }
+      });</script>
     <script>
-      function tr1(obj)
-    {
-    var inner = document.getElementsByTagName("hide1")[0];
-    if (inner.style.display == "none")
-        inner.style.display = "";
-    else
-        inner.style.display = "none";
-    }
+      function tr1(obj) {
+        var inner = document.getElementsByTagName("hide1")[0];
+        if (inner.style.display == "none")
+          inner.style.display = "";
+        else
+          inner.style.display = "none";
+      }
     </script>
 
 </body>
